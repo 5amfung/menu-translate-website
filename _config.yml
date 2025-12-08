@@ -1,46 +1,39 @@
-baseurl: '/menu-translate-website'
-permalink: pretty
-title: 'Menu Translate'
+# Site settings
+title: Monochrome | A minimal, responsive Jekyll blog theme
+description: "A minimal, responsive, ready to use blog template, built with Jekyll."
+url: "http://www.dyutibarma.github.io/monochrome"
+author:
+  name: "The Review Index"
+  email: "dyutibarma@gmail.com"
+  url: "https://thereviewindex.com"
 
-logo:
-  mobile: "images/logo/logo-mobile.svg"
-  mobile_height: "32px"
-  mobile_width: "32px"
-  desktop: "images/logo/logo.svg"
-  desktop_height: "32px"
-  desktop_width: "120px"
+# Build settings
+baseurl: /menu-translate-website # Change this to your relative path (ex: /blog/), or leave just a /
+markdown: kramdown
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 8
+paginate_path: /page:num/
 
-home:
-  limit_services: 6
-
-collections:
-  services:
-    output: true
-    sort_by: weight
-  team:
-    output: true
-
+# Default values
 defaults:
-  - scope:
+  -
+    scope:
       path: ""
-      type: "services"
+      type: "posts"
     values:
-      layout: "service"
+      layout: "post"
 
-sass:
-  style: compressed # possible values: nested expanded compact compressed
+# Plugins
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
 
-plugins:
-  - jekyll-environment-variables
+# Custom variables
+version: "1.0.0"
 
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - LICENSE.md
-  - LICENSE
-  - README.md
+# Options
+custom_header: false
+custom_nav_footer: false
+reverse: false
