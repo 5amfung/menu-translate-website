@@ -1,13 +1,13 @@
 ---
-title: Jekyll Serif Theme
+title: Manu Translate
 layout: home
-description: Jekyll Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+description: Manu Translate
 intro_image: "images/illustrations/pointing.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
-show_call_box: true
+show_call_box: false
 ---
 
-# Serif - A Jekyll Business Theme.
+# Manu Translate
 
-Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+Snap a menu photo for instant AI translation in 9 languages. Get cultural context, pronunciation help, and visual order sheets. Never guess what you're ordering again!
