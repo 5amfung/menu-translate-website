@@ -1,6 +1,5 @@
 ---
 layout: page
-
 title: About
 description: This page describes Menu Translate.
 ---
