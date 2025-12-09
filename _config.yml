@@ -1,11 +1,10 @@
 # Site settings
-title: Monochrome | A minimal, responsive Jekyll blog theme
-description: "A minimal, responsive, ready to use blog template, built with Jekyll."
-url: "http://www.dyutibarma.github.io/monochrome"
+title: Menu Translate | AI Menu Translation & Ordering.
+description: "Snap a menu photo for instant AI translation in 9 languages. Get cultural context, pronunciation help, and visual order sheets. Never guess what you're ordering again!"
+url: "https://5amfung.github.io/menu-translate-website"
 author:
-  name: "The Review Index"
-  email: "dyutibarma@gmail.com"
-  url: "https://thereviewindex.com"
+  name: "Menu Translate"
+  url: "https://5amfung.github.io/menu-translate-website"
 
 # Build settings
 baseurl: /menu-translate-website # Change this to your relative path (ex: /blog/), or leave just a /
@@ -34,6 +33,5 @@ gems:
 version: "1.0.0"
 
 # Options
-custom_header: false
 custom_nav_footer: false
 reverse: false
