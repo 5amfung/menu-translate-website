@@ -12,6 +12,10 @@ layout: null
  <author>
    <name>{{ site.author.name }}</name>
    <uri>{{ site.author.url }}</uri>
+<<<<<<< HEAD
+=======
+   <email>{{ site.author.email }}</email>
+>>>>>>> b364e6988a5819999f5217d55a9001dcd8c3c9f9
  </author>
 
  {% for post in site.posts limit: 10 %}
@@ -26,4 +30,8 @@ layout: null
 
  {% endfor %}
 
+<<<<<<< HEAD
 </feed>
+=======
+</feed>
+>>>>>>> b364e6988a5819999f5217d55a9001dcd8c3c9f9
