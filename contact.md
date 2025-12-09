@@ -1,7 +1,7 @@
 ---
-title: Contact
 layout: page
-description: Contact
+title: Support
+description: Support
 ---
 
 Please reach out to support@sfng.co for support.

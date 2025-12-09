@@ -1,8 +1,10 @@
 ---
-title: Terms & Conditions
 layout: page
-description: Menu Translation terms & conditions
+title: Terms
+description: Terms & Condidtions
 ---
+
+**Terms & Conditions**
 
 These terms and conditions apply to the Menu Translate app (hereby referred to as "Application") for mobile devices that was created by Sam Fung (hereby referred to as "Service Provider") as a Commercial service.
 

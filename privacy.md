@@ -1,8 +1,10 @@
 ---
-title: Privacy Policy
 layout: page
-description: Menu Translation privacy policy
+title: Privacy
+description: Privacy policy
 ---
+
+**Privacy Policy**
 
 This privacy policy applies to the Menu Translate app (hereby referred to as "Application") for mobile devices that was created by Sam Fung (hereby referred to as "Service Provider") as a Commercial service. This service is intended for use "AS IS".
 
