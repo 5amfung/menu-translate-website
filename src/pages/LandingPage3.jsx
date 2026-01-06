@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import Logo from '../components/Logo'
 import './LandingPage3.css'
 
@@ -234,6 +235,11 @@ export default function LandingPage3() {
 
         <footer className="lp3__footer">
           <Logo size="sm" variant="grey" />
+          <div className="lp3__footer-links">
+            <Link to="/terms" className="lp3__footer-link">Terms</Link>
+            <Link to="/privacy" className="lp3__footer-link">Privacy</Link>
+            <Link to="/support" className="lp3__footer-link">Support</Link>
+          </div>
           <p>© 2026 Menu Translate</p>
         </footer>
       </section>

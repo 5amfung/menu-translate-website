@@ -545,6 +545,24 @@
   border-top: 1px solid var(--grey-800);
 }
 
+.lp3__footer-links {
+  display: flex;
+  gap: var(--space-xl);
+  align-items: center;
+}
+
+.lp3__footer-link {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--grey-500);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.lp3__footer-link:hover {
+  color: var(--white);
+}
+
 .lp3__footer p {
   font-family: var(--font-mono);
   font-size: 0.75rem;
@@ -593,5 +611,10 @@
     flex-direction: column;
     gap: var(--space-md);
     text-align: center;
+  }
+
+  .lp3__footer-links {
+    flex-direction: column;
+    gap: var(--space-sm);
   }
 }
