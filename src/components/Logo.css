@@ -1,0 +1,63 @@
+.logo {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.logo__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo__icon svg {
+  width: 32px;
+  height: 32px;
+}
+
+.logo__text {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+/* Sizes */
+.logo--sm .logo__icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.logo--sm .logo__text {
+  font-size: 0.875rem;
+}
+
+.logo--md .logo__icon svg {
+  width: 32px;
+  height: 32px;
+}
+
+.logo--md .logo__text {
+  font-size: 1.125rem;
+}
+
+.logo--lg .logo__icon svg {
+  width: 48px;
+  height: 48px;
+}
+
+.logo--lg .logo__text {
+  font-size: 1.5rem;
+}
+
+/* Variants */
+.logo--light {
+  color: var(--white);
+}
+
+.logo--dark {
+  color: var(--black);
+}
+
+.logo--grey {
+  color: var(--grey-400);
+}

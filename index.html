@@ -1,17 +1,29 @@
----
-layout: default
----
-<!-- Posts -->
-<ul id="posts">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-	{% for post in paginator.posts %}
+    <!-- Primary Meta Tags -->
+    <title>Menu Translate - Translate Any Menu, Anywhere in the World</title>
+    <meta name="title" content="Menu Translate - Translate Any Menu, Anywhere in the World" />
+    <meta name="description" content="Point your camera at any menu in any language. Get instant translations, cultural insights, and ordering confidence. Available on iOS." />
 
-	  <li class="post">
-	  	<h2><a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">{%if post.header %}{{ post.header }}{% else %}{{ post.title }}{% endif %}</a></h2>
-      <time datetime="{{ post.date | date_to_xmlschema }}" class="by-line"> <i>{{ post.date | date_to_string }}</i> </time>
-	  	<p>{{ post.content | strip_html | truncatewords:50 }}</p>
-	  </li>
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://menutranslate.com/" />
+    <meta property="og:title" content="Menu Translate - Translate Any Menu, Anywhere in the World" />
+    <meta property="og:description" content="Point your camera at any menu in any language. Get instant translations, cultural insights, and ordering confidence." />
 
-    {% endfor %}
-
-</ul>
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://menutranslate.com/" />
+    <meta property="twitter:title" content="Menu Translate - Translate Any Menu, Anywhere in the World" />
+    <meta property="twitter:description" content="Point your camera at any menu in any language. Get instant translations, cultural insights, and ordering confidence." />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
