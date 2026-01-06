@@ -1,14 +1,6 @@
-# Menu Translate
+# Menu Translate Website
 
-Landing page for Menu Translate — an iOS app that instantly translates any menu into your language using AI-powered recognition.
-
-## Features
-
-- **AI-Powered Translation** — Snap a photo of any menu and get instant translations
-- **100+ Languages** — Support for English, Japanese, Korean, Chinese, French, Spanish, and more
-- **Cultural Context** — Get dish insights, ingredients, and regional significance
-- **Pronunciation Guide** — Learn how to order with confidence
-- **Visual Order Sheets** — Build and show your order to servers
+Landing page for [Menu Translate](https://github.com/5amfung/menu-translate) — an iOS app that instantly translates any menu into your language using AI-powered recognition.
 
 ## Tech Stack
 
